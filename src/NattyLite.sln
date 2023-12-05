@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NattyLite", "NattyLite\NattyLite.csproj", "{DF47628B-B787-4411-BD2C-C3CD1BB7B393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NattyConsole", "NattyConsole\NattyConsole.csproj", "{63342E44-D68B-4298-A4ED-4065B414E048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NattyLite.Tests", "NattyLite.Tests\NattyLite.Tests.csproj", "{5EAE92E1-2D1B-4DC2-A990-11C9D5B160BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF47628B-B787-4411-BD2C-C3CD1BB7B393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF47628B-B787-4411-BD2C-C3CD1BB7B393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF47628B-B787-4411-BD2C-C3CD1BB7B393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF47628B-B787-4411-BD2C-C3CD1BB7B393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63342E44-D68B-4298-A4ED-4065B414E048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63342E44-D68B-4298-A4ED-4065B414E048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63342E44-D68B-4298-A4ED-4065B414E048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63342E44-D68B-4298-A4ED-4065B414E048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAE92E1-2D1B-4DC2-A990-11C9D5B160BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAE92E1-2D1B-4DC2-A990-11C9D5B160BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAE92E1-2D1B-4DC2-A990-11C9D5B160BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAE92E1-2D1B-4DC2-A990-11C9D5B160BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

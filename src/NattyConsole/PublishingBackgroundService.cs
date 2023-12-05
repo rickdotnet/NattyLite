@@ -16,6 +16,9 @@ public class PublishingBackgroundService(IServiceProvider serviceProvider) : Bac
             Console.WriteLine("Publishing message");
             
             await conn.PublishAsync("foo", new TestMessage("Hey!"), cancellationToken: stoppingToken);
+            
+            var test = await conn.RequestAsync<TestMessage,string>("foo.responder", new TestMessage("Hey!"), cancellationToken: stoppingToken);
+            Console.WriteLine($"Got response: {test.Data}");
         }
     }
 }

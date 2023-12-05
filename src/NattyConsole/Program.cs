@@ -6,8 +6,9 @@ using NattyLite;
 var builder = Host.CreateApplicationBuilder(args);
 
 builder.Services
-    .AddNattyLite(new NattyConfig("nats://localhost:4222"))
-    .AddSubscriber<TestHandler>("foo");
+    .AddNattyLite(new NattyConfig("nats://nats.rhinostack.com:4222"))
+    .AddSubscriber<TestHandler>("foo")
+    .AddResponder<TestResponder>("foo.responder");
 
 // demo
 builder.Services.AddHostedService<PublishingBackgroundService>();

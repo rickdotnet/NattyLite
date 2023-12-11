@@ -1,10 +1,15 @@
+# WORK PAUSED
+Work is paused on this library while I focus on [Apollo](https://github.com/rickdotnet/Apollo). Much of the functionality found here will be implemented in some fashion in Apollo.
+
+---
+
 # NattyLite
 
-Welcome to NattyLite. It's like your favorite lightweight beer, but for NATS.
+Welcome to NattyLite. It's like your favorite lightweight beer but for NATS.
 
 ## What is NattyLite?
 
-NattyLite is a lightweight, no-nonsense, NATS-focused library. It's not trying to be the next agnostic service bus library. Nope, it's just here to make NATS even more enjoyable while still keeping it as lightweight and flexible as possible.
+NattyLite is a lightweight, no-nonsense, NATS-focused library. It's not trying to be the next agnostic service bus library. Nope, it's here to make NATS even more enjoyable while keeping it as lightweight and flexible as possible.
 
 ## Why NattyLite?
 
